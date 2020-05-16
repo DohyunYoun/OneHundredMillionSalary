@@ -8,7 +8,7 @@
 >
 > (가상 머신이란, 프로그램을 실행하기 위한 물리적 머신과 유사한 머신을 소프트웨어로 구현한 것.)
 
-![JVM](/Users/bomi/Desktop/취뽀/1억스터디/OneHundredMillionSalary/11_20200516/KBM/JVM.png)
+![JVM](./JVM.png)
 
 #### Java Application 실행 과정
 
@@ -81,7 +81,7 @@
 
   * 실행 과정
 
-    ![Class_Loader_hierarchy](/Users/bomi/Desktop/취뽀/1억스터디/OneHundredMillionSalary/11_20200516/KBM/Class_Loader_hierarchy.png)
+    ![Class_Loader_hierarchy](./Class_Loader_hierarchy.png)
 
     * Class Loader가 class파일(.class)의 위치를 찾아 JVM 위에 올려놓는 과정
 
@@ -115,7 +115,7 @@
 
 * ##### Runtime Data Area
 
-  ![Runtime_Data_Area](/Users/bomi/Desktop/취뽀/1억스터디/OneHundredMillionSalary/11_20200516/KBM/Runtime_Data_Area.png)
+  ![Runtime_Data_Area](./Runtime_Data_Area.png)
 
   * **JVM의 메모리 영역**으로 Java Application을 실행할 때 **사용되는 데이터들을 적재하는 영역**
 
@@ -200,7 +200,7 @@
 
 
 
-![Heap](/Users/bomi/Desktop/취뽀/1억스터디/OneHundredMillionSalary/11_20200516/KBM/Heap.png)
+![Heap](./Heap.png)
 
 
 
@@ -282,7 +282,7 @@
 
   * G1 GC가 적용된 JVM Heap 구조
 
-    ![G1_GC_Heap](/Users/bomi/Desktop/취뽀/1억스터디/OneHundredMillionSalary/11_20200516/KBM/G1_GC_Heap.png)
+    ![G1_GC_Heap](./G1_GC_Heap.png)
 
   * 다른 GC와는 다른 방식으로 heap을 관리.
 
